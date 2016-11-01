@@ -22,9 +22,9 @@
   
   background: gray;
   border: 5px solid white;
-  box-shadow: 0px 0px 10px #999999;
-  -moz-box-shadow: 0px 0px 10px #999999;
-  -webkit-box-shadow: 0px 0px 10px #999999;
+  box-shadow: 0 0 10px rgba(0, 0, 0, .3);
+  -moz-box-shadow: 0 0 10px rgba(0, 0, 0, .3);
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, .3);
 }
 
 #ribbon-container {
@@ -40,6 +40,17 @@
   line-height: 18px;
 }
 
+#ribbon-container:before {
+  content: "";
+  height: 3px;
+  background: rgba(0, 0, 0, .3);
+  display: block;
+  position: absolute;
+  bottom: -3px;
+  left: 58px;
+  right: 3px;
+}
+
 #ribbon-container:after {
   /* This adds the second part of our dropshadow */
   
@@ -49,7 +60,7 @@
   display: block;
   position: absolute;
   bottom: -3px;
-  left: 0px;
+  left: 58px;
   right: 3px;
 }
 
@@ -81,6 +92,27 @@
   border-right: 15px solid transparent;
 }
 
+#ribbon-container a:before {
+  /* this creates the "forked" part of our ribbon */
+  
+  content: "";
+  height: 0;
+  width: 0;
+  display: block;
+  position: absolute;
+  bottom: -15px;
+  right: 0;
+  border-top: 15px solid #004a70;
+  border-right: 15px solid transparent;
+}
+
 #ribbon-container a:hover {
   background: #009ff1;
+}
+
+#ribbon-container a:hover:before {
+  /* this makes sure that the "forked" part of the ribbon changes color with the anchor on :hover */
+  
+  border-top: 29px solid #009ff1;
+  border-bottom: 29px solid #009ff1;
 }
