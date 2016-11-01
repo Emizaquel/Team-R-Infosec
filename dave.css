@@ -97,29 +97,6 @@
   border-right: 15px solid transparent;
 }
 
-#ribbon-container a:before {
-  /* this creates the "forked" part of our ribbon */
-  
-  content: "";
-  height: 0;
-  width: 0;
-  display: block;
-  position: absolute;
-  top: 0;
-  left: -29px;
-  border-top: 29px solid #0089d0;
-  border-bottom: 29px solid #0089d0;
-  border-right: 29px solid transparent;
-  border-left: 29px solid transparent;
-}
-
 #ribbon-container a:hover {
   background: #009ff1;
-}
-
-#ribbon-container a:hover:before {
-  /* this makes sure that the "forked" part of the ribbon changes color with the anchor on :hover */
-  
-  border-top: 29px solid #009ff1;
-  border-bottom: 29px solid #009ff1;
 }
