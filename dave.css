@@ -104,7 +104,7 @@
   bottom: -30px;
   right: 0;
   border-top: 15px solid #004a70;
-  border-right: 15px solid transparent;
+  border-left: 15px solid transparent;
 }
 
 #ribbon-container a:hover {
