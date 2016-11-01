@@ -22,9 +22,9 @@
   
   background: gray;
   border: 5px solid white;
-  box-shadow: 0 0 10px rgba(0, 0, 0, .3);
-  -moz-box-shadow: 0 0 10px rgba(0, 0, 0, .3);
-  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, .3);
+  box-shadow: 0px 0px 10px #999999;
+  -moz-box-shadow: 0px 0px 10px #999999;
+  -webkit-box-shadow: 0px 0px 10px #999999;
 }
 
 #ribbon-container {
@@ -38,22 +38,6 @@
   /* font-size and line-height must be equal so we can account for the height of the banner */
   
   line-height: 18px;
-}
-
-#ribbon-container:before {
-  content: "";
-  height: 0;
-  width: 0;
-  display: block;
-  position: absolute;
-  top: 3px;
-  left: 0;
-  border-top: 29px solid rgba(0, 0, 0, .3);
-  /* These 4 border properties create the first part of our drop-shadow */
-  
-  border-bottom: 29px solid rgba(0, 0, 0, .3);
-  border-right: 29px solid rgba(0, 0, 0, .3);
-  border-left: 29px solid transparent;
 }
 
 #ribbon-container:after {
