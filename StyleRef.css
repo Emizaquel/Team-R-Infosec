@@ -89,7 +89,8 @@ div4 {
   display: block;
   padding: 20px;
   position: relative;
-  background: #0089d0;
+  background: #0c5e13;
+  /*background: #0098D0;*/
   overflow: visible;
   height: 58px;
   margin-left: 29px;
@@ -106,6 +107,7 @@ div4 {
   bottom: -15px;
   right: 0;
   border-top: 15px solid #004a70;
+  /*border-top: 15px solid #073d0c;*/
   border-right: 15px solid transparent;
 }
 
@@ -117,8 +119,8 @@ div4 {
   position: absolute;
   top: 0;
   left: -29px;
-  border-top: 29px solid #0089d0;
-  border-bottom: 29px solid #0089d0;
+  border-top: 29px solid #0c5e13;
+  border-bottom: 29px solid #0c5e13;
   border-right: 29px solid transparent;
   border-left: 29px solid transparent;
 }
