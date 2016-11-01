@@ -65,7 +65,7 @@
   right: 3px;
 }
 
-#ribbon-container a {
+#ribbon-container h1 {
   display: block;
   padding: 20px;
   position: relative;
@@ -79,7 +79,7 @@
   text-decoration: none;
 }
 
-#ribbon-container a:after {
+#ribbon-container h1:after {
   /* this creates the "folded" part of our ribbon */
   
   content: "";
@@ -93,7 +93,7 @@
   border-right: 15px solid transparent;
 }
 
-#ribbon-container a:before {
+#ribbon-container h1:before {
   /* this creates the "forked" part of our ribbon */
   
   content: "";
@@ -107,11 +107,11 @@
   border-left: 15px solid transparent;
 }
 
-#ribbon-container a:hover {
+#ribbon-container h1:hover {
   background: #009ff1;
 }
 
-#ribbon-container a:hover:before {
+#ribbon-container h1:hover:before {
   /* this makes sure that the "forked" part of the ribbon changes color with the anchor on :hover */
   
   border-top: 15px solid #004a70;
