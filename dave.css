@@ -50,6 +50,9 @@ body {
   /* font-size and line-height must be equal so we can account for the height of the banner */
   
   line-height: 18px;
+  
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 #ribbon-container:before {
