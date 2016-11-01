@@ -119,13 +119,13 @@ body {
   border-left: 15px solid transparent;
 }
 
-#ribbon-container p1:hover {
-  background: #009ff1;
-}
+/*#ribbon-container p1:hover {*/
+/*  background: #009ff1;*/
+/*}*/
 
-#ribbon-container p1:hover:before {
+/*#ribbon-container p1:hover:before {*/
   /* this makes sure that the "forked" part of the ribbon changes color with the anchor on :hover */
   
-  border-top: 15px solid #004a70;
-  border-left: 15px solid transparent;
-}
+/*  border-top: 15px solid #004a70;*/
+/*  border-left: 15px solid transparent;*/
+/*}*/
