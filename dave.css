@@ -20,7 +20,7 @@ body {
 
 .content-box {
   width: 100%;
-  height: 400px;
+  min-height: 75%;
   max-width:90%;
   margin: 60px 5% 60px 5%;
   position: relative;
@@ -125,13 +125,16 @@ body {
   border-left: 29px solid transparent;
 }
 
-/*#ribbon-container p1:hover {*/
-/*  background: #009ff1;*/
-/*}*/
+.nav-link{
+	color: #ffffff;
+    text-decoration: none;
+}
 
-/*#ribbon-container p1:hover:before {*/
-  /* this makes sure that the "forked" part of the ribbon changes color with the anchor on :hover */
-  
-/*  border-top: 15px solid #004a70;*/
-/*  border-left: 15px solid transparent;*/
-/*}*/
+h3{
+	background-color: #999999;
+	margin: 0px;
+	padding: 10px;
+	padding-top: 20px;
+	border: 0px;
+	box-shadow: 0px 10px 5px #777777 inset;
+}
