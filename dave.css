@@ -61,7 +61,7 @@
   display: block;
   position: absolute;
   bottom: -3px;
-  left: 90px;
+  left: 58px;
   right: 3px;
 }
 
@@ -101,7 +101,7 @@
   width: 0;
   display: block;
   position: absolute;
-  bottom: -15px;
+  bottom: -30px;
   right: 0;
   border-top: 15px solid #004a70;
   border-right: 15px solid transparent;
