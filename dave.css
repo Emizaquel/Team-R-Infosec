@@ -37,6 +37,9 @@ body {
   padding: 35px;
   padding-top: 25px;
   
+  background-image: url("filler.jpg");
+  background-repeat: repeat;
+  
 }
 
 #ribbon-container {
@@ -128,6 +131,11 @@ body {
 
 .nav-link{
 	color: #ffffff;
+    text-decoration: none;
+}
+
+.head-link{
+	color: #000000;
     text-decoration: none;
 }
 
