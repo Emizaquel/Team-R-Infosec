@@ -106,8 +106,8 @@ div4 {
   position: absolute;
   bottom: -15px;
   right: 0;
-  border-top: 15px solid #004a70;
-  /*border-top: 15px solid #073d0c;*/
+  border-top: 15px solid #073d0c;
+  /*border-top: 15px solid #004a70;*/
   border-right: 15px solid transparent;
 }
 
@@ -120,7 +120,9 @@ div4 {
   top: 0;
   left: -29px;
   border-top: 29px solid #0c5e13;
+  /*border-top: #0098D0;*/
   border-bottom: 29px solid #0c5e13;
+  /*border-bottom: #0098D0;*/
   border-right: 29px solid transparent;
   border-left: 29px solid transparent;
 }
