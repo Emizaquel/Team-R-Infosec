@@ -49,11 +49,7 @@ body {
   top: 75px;
   right: -20px;
   overflow: visible;
-  /* so we can see the pseudo-elements we're going to add to the anchor */
-  
   font-size: 18px;
-  /* font-size and line-height must be equal so we can account for the height of the banner */
-  
   line-height: 18px;
 }
 
@@ -66,16 +62,12 @@ body {
   top: 3px;
   left: 0;
   border-top: 29px solid rgba(0, 0, 0, .3);
-  /* These 4 border properties create the first part of our drop-shadow */
-  
   border-bottom: 29px solid rgba(0, 0, 0, .3);
   border-right: 29px solid rgba(0, 0, 0, .3);
   border-left: 29px solid transparent;
 }
 
 #ribbon-container:after {
-  /* This adds the second part of our dropshadow */
-  
   content: "";
   height: 3px;
   background: rgba(0, 0, 0, .3);
@@ -90,8 +82,6 @@ body {
   display: block;
   padding: 20px;
   position: relative;
-  /* allows us to position our pseudo-elements properly */
-  
   background: #0089d0;
   overflow: visible;
   height: 58px;
@@ -101,8 +91,6 @@ body {
 }
 
 #ribbon-container p1:after {
-  /* this creates the "folded" part of our ribbon */
-  
   content: "";
   height: 0;
   width: 0;
@@ -115,8 +103,6 @@ body {
 }
 
 #ribbon-container p1:before {
-  /* this creates the "forked" part of our ribbon */
-  
   content: "";
   height: 0;
   width: 0;
