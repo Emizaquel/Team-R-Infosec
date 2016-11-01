@@ -28,7 +28,7 @@
 }
 
 #ribbon-container {
-  width: 110%;
+  width: 100%;
   position: absolute;
   top: 15px;
   right: -20px;
@@ -114,6 +114,5 @@
 #ribbon-container a:hover:before {
   /* this makes sure that the "forked" part of the ribbon changes color with the anchor on :hover */
   
-  border-top: 29px solid #009ff1;
-  border-bottom: 29px solid #009ff1;
+  background: #009ff1;
 }
