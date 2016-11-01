@@ -1,3 +1,10 @@
+body {
+    background-color: #33bbff;
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+}
+
 * {
   padding: 0;
   /* Standard Reset, and we're adding box-sizing:border-box because it's awesome. */
