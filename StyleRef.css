@@ -141,6 +141,8 @@ div4 {
 .nav-link-active{
 	color: #ffffff;
 	padding: 2px;
+	padding-left: 20px;
+	padding-right: 20px;
     text-decoration: none;
 	text-align: center;
     border: 1px solid white;
