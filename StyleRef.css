@@ -14,8 +14,6 @@ div4 {
 
 * {
   padding: 0;
-  /* Standard Reset, and we're adding box-sizing:border-box because it's awesome. */
-  
   margin: 0;
   box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -32,7 +30,6 @@ div4 {
   max-width:90%;
   margin: 60px 5% 60px 5%;
   position: relative;
-  /* So we can position the banner within the box */
   
   background: white;
   border: 5px solid gray;
@@ -106,7 +103,7 @@ div4 {
   position: absolute;
   bottom: -15px;
   right: 0;
-  border-top: 15px solid #073d0c;
+  border-top: 15px solid #042807;
   /*border-top: 15px solid #004a70;*/
   border-right: 15px solid transparent;
 }
