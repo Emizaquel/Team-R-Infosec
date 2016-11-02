@@ -136,8 +136,8 @@ div4 {
 	display: inline-block;
 	min-width: 15%;
 	margin-top: -10px;
-	margin-left: 1%;
-	margin-right: 1%;
+	margin-left: 10 px;
+	margin-right: 10 px;
 }
 
 .nav-link-active{
@@ -152,8 +152,8 @@ div4 {
 	display: inline-block;
 	min-width: 15%;
 	margin-top: -10px;
-	margin-left: 1%;
-	margin-right: 1%;
+	margin-left: 10 px;
+	margin-right: 10 px;
 }
 .wrapper{
   text-align: justify;
