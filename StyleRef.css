@@ -149,8 +149,8 @@ h3{
 	padding: 10px;
 	padding-top: 20px;
 	border: 0px;
-	box-shadow: inset 0px 20px 20px -20px rgba(0,0,0,1);
-	-moz-box-shadow: inset 0px 20px 20px -20px rgba(0,0,0,1);
-  	-webkit-box-shadow: inset 0px 20px 20px -20px rgba(0,0,0,1);
+	box-shadow: inset 0px 20px 20px -20px #444444;
+	-moz-box-shadow: inset 0px 20px 20px -20px #444444;
+  	-webkit-box-shadow: inset 0px 20px 20px -20px #444444;
 	
 }
