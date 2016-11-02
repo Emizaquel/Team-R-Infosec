@@ -133,6 +133,9 @@ div4 {
 	padding: 2px;
 	display: inline-block;
 	width: 15%;
+	margin-top: -10px;
+	margin-left: 1.5%;
+	margin-right: 1.5%;
 }
 
 .nav-link-active{
@@ -144,6 +147,9 @@ div4 {
 	border-radius: 5px;
 	display: inline-block;
 	width: 15%;
+	margin-top: -10px;
+	margin-left: 1.5%;
+	margin-right: 1.5%;
 }
 .wrapper{
   text-align: justify;
