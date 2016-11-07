@@ -13,7 +13,8 @@ body{
 	height:100%;
 	background-color:blue;
 	background-image:url("../res/infsec.jpg");
-	background-size:cover;
+	background-repeat: no-repeat;
+	background-size: 100% auto;
 	font-family:'Bungee Hairline', cursive;
 	font-weight:bold;
 	border: 0;
