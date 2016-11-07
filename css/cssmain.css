@@ -1,0 +1,323 @@
+
+html{
+	width:100%;
+	height:100%;
+	overflow:hidden;
+	font-weight:bold;
+}
+
+
+
+body{
+		width:100%;
+	height:100%;
+	background-color:blue;
+	background-image:url("../res/infsec.jpg");
+	background-size:cover;
+	font-family:'Bungee Hairline', cursive;
+	font-weight:bold;
+	border: 0;
+	margin: 0;
+	padding: 0;
+}
+
+h2
+{
+	text-align: center;
+	text-decoration: underline;
+}
+
+.imgf
+{
+	display: block;
+    margin: auto;
+    width: 60%;
+}
+
+#header ul {
+	list-style-type:none;
+	border: 0;
+	margin: 0;
+	padding: 0 70px;
+	background-color:rgba(51,51,51,0.5);
+
+
+	background: rgba(51,51,51,0.5);
+	background: -webkit-linear-gradient(90deg, rgba(51,51,51,0.0), rgba(51,51,51,1));
+	background: -o-linear-gradient(90deg, rgba(51,51,51,0.0), rgba(51,51,51,1));
+	background: -moz-linear-gradient(90deg, rgba(51,51,51,0.0), rgba(51,51,51,1));
+	background: linear-gradient(90deg, rgba(51,51,51,0.0),rgba(51,51,51,1));
+
+
+
+	overflow: hidden;
+}
+
+#header li {
+
+	float:right;
+}
+
+
+
+label {
+	color: white;
+	display:block;
+	padding:10px 25px 10px 25px;
+	margin-right:10px;
+	background-color: rgba(100,149,237,0.5);
+	text-decoration:none;
+	font-size: 16px;
+	-webkit-transition: background-color 2s, color 42s;
+    transition: background-color 2s, color 2s;
+
+
+}
+
+input[type=radio]{
+  position: absolute;
+  visibility:hidden;
+}
+
+label:hover {
+	background-color: rgba(0,0,128,0.5);
+
+}
+
+input[id="h-option"]:checked + label  {
+
+
+	background-color: rgba(0,0,128,0.5);
+	color:rgba(135,206,235,1);
+}
+
+
+
+input[id="f-option"]:checked + label  {
+
+
+	background-color: rgba(0,0,128,0.5);
+	color:rgba(135,206,235,1);
+}
+
+input[id="n-option"]:checked + label  {
+
+
+	background-color: rgba(0,0,128,0.5);
+	color:rgba(135,206,235,1);
+}
+
+input[id="a-option"]:checked + label  {
+
+
+	background-color: rgba(0,0,128,0.5);
+	color:rgba(135,206,235,1);
+}
+
+input[id="home-option"]:checked + label  {
+
+
+	background-color: rgba(135,206,235,1);
+	color:rgba(0,0,128,0.5);
+}
+
+#home-option:hover
+{
+	background-color: rgba(135,206,235,1);
+}
+
+
+#text
+{
+	color: rgba(190,190,258,0.0);
+	animation-timing-function: ease-in;
+	font-size: 40px;
+	font-family: 'Bungee Hairline', cursive;
+	width:auto;
+	position:absolute;
+	left: 50%;
+	margin: -30px 0 0 -260px;
+	padding:25px 50px;
+	color: white;
+	font-weight:bold;
+	text-align:center;
+	animation-name: text 1.5s forwards ;
+	-webkit-animation: text 1.5s forwards;
+	animation-delay: 0.75s;
+}
+
+#team
+{
+	color: rgba(190,190,258,0.0);
+	animation-timing-function: ease-in;
+	font-size: 40px;
+	font-family: 'Bungee Hairline', cursive;
+	width:auto;
+	position:absolute;
+	left: 50%;
+	margin: -30px 0 0 -110px;
+	padding:25px 50px;
+	color: white;
+	font-weight:bold;
+	text-align:center;
+	animation-name: team 1.5s forwards ;
+	-webkit-animation: team 1.5s forwards;
+	animation-delay: 2s;
+}
+
+.zorzoane
+{
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	-o-user-select: none;
+	user-select: none;
+	animation-timing-function: ease;
+	position:absolute;
+	font-size: 35px;
+	font-family: 'Bungee Hairline', cursive;
+	padding:5px 5px;
+	color: white;
+	font-weight:bold;
+	text-align:center;
+	left: 10%;
+	animation-name: zorzoane 5.0s infinite;
+	-webkit-animation: zorzoane 5.0s infinite;
+
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+#home-option
+{
+
+}
+
+.info
+{
+	width:70%;
+	height:86%;
+	top: 12%;
+	left:20%;
+	overflow-x:hidden;
+	overflow-y:scroll;
+	-ms-transform: translate(2000px, 0px);
+    -webkit-transform: translate(2000px, 0px);
+    transform: translate(2000px, 0px);
+	font-family: 'Raleway', sans-serif;
+}
+
+#history
+{
+	position:absolute;
+	background:rgba(257,257,257,0);
+	color: rgba(257,257,257,0);
+	padding-left: 15px;
+}
+
+#nowadays
+{
+	position:absolute;
+	background:rgba(257,257,257,0);
+	color: rgba(257,257,257,0);
+	padding-left: 15px;
+}
+
+#future
+{
+	position:absolute;
+	background:rgba(257,257,257,0);
+	color: rgba(257,257,257,0);
+	padding-left: 15px;
+}
+
+#about
+{
+	position:absolute;
+	background:rgba(257,257,257,0);
+	color: rgba(257,257,257,0);
+	padding-left: 15px;
+}
+
+#guide
+{
+	position:absolute;
+	background:rgba(257,257,257,0);
+	color: rgba(257,257,257,0);
+	padding: 15px;
+}
+
+#aboutis
+{
+	position:absolute;
+	background:rgba(257,257,257,0);
+	color: rgba(257,257,257,0);
+	padding-left: 15px;
+}
+
+@keyframes page_intro{
+	0% {color: rgba(240,240,258,0.0);background: rgba(51,51,51,0.0);
+	-ms-transform: translate(200px, 0px);
+    -webkit-transform: translate(200px, 0px);
+    transform: translate(200px, 0px);
+	}
+	100% {color: rgba(240,240,258,1);background: rgba(51,51,51,0.9);
+	-ms-transform: translate(0px, 0px);
+    -webkit-transform: translate(0px, 0px);
+    transform: translate(0px, 0px);
+	}
+}
+
+
+@keyframes page_outro{
+	0% {
+	color: rgba(240,240,258,1);background: rgba(51,51,51,0.9);
+	-ms-transform: translate(0px, 0px);
+    -webkit-transform: translate(0px, 0px);
+    transform: translate(0px, 0px);
+	}
+
+	99% {
+	color: rgba(240,240,258,0);background: rgba(51,51,51,0);
+	-ms-transform: translate(-200px, 0px);
+    -webkit-transform: translate(-200px, 0px);
+    transform: translate(-200px, 0px);
+	}
+
+	100% {
+	-ms-transform: translate(2000px, 0px);
+    -webkit-transform: translate(2000px, 0px);
+    transform: translate(2000px, 0px);
+	}
+
+}
+
+@keyframes text{
+	0% {top:110%;color: rgba(240,240,258,0.0);text-shadow: 0px 0px rgba(33,33,33,0.0);}
+	100% {top:50%;color: rgba(240,240,258,1);text-shadow: 2.8px 2.8px rgba(33,33,33,1);}
+}
+
+@keyframes text_out{
+	0% {top:50%;color: rgba(240,240,258,1);text-shadow: 2.8px 2.8px rgba(33,33,33,1);}
+	90% {top:10%;color: rgba(240,240,258,0);text-shadow: 0px 0px rgba(33,33,33,0);}
+	100% {top:110%;color: rgba(240,240,258,0);text-shadow: 0px 0px rgba(33,33,33,0);}
+}
+
+@keyframes team{
+	0% {top:110%;color: rgba(240,240,258,0.0);text-shadow: 0px 0px rgba(33,33,33,0.0);}
+	100% {top: 60%;color: rgba(240,240,258,1);text-shadow: 2.8px 2.8px rgba(33,33,33,1);}
+}
+
+@keyframes team_out{
+	0% {top:60%;color: rgba(240,240,258,1);text-shadow: 2.8px 2.8px rgba(33,33,33,1);}
+	100% {top:110%;color: rgba(240,240,258,0);text-shadow: 0px 0px rgba(33,33,33,0.5);}
+}
+
+
+@keyframes zorzoane{
+	0% {top:10%;color: rgba(190,190,258,0)}
+	50% {color: rgba(190,190,258,1)}
+	100% {top:90%;color: rgba(190,190,258,0)}
+}
