@@ -201,18 +201,18 @@ input[id="home-option"]:checked + label  {
 
 .info
 {
+	position: absolute;
 	width:70%;
 	height:86%;
 	top: 12%;
 	left:20%;
 	overflow-x:hidden;
 	overflow-y:scroll;
+    -webkit-overflow-scrolling: touch;
 	-ms-transform: translate(2000px, 0px);
     -webkit-transform: translate(2000px, 0px);
     transform: translate(2000px, 0px);
 	font-family: 'Raleway', sans-serif;
-    overflow-y: scroll;
-    -webkit-overflow-scrolling: touch;
 }
 
 #history
