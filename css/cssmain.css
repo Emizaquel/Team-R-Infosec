@@ -21,6 +21,16 @@ body{
 	padding: 0;
 }
 
+div4 {
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+	background-image: url("background.JPG");
+	display: block;
+	padding-top:0.5%;
+	padding-bottom:0.5%;
+}
+
 h2
 {
 	text-align: center;
