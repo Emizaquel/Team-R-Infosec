@@ -211,6 +211,8 @@ input[id="home-option"]:checked + label  {
     -webkit-transform: translate(2000px, 0px);
     transform: translate(2000px, 0px);
 	font-family: 'Raleway', sans-serif;
+    overflow-y: scroll;
+    -webkit-overflow-scrolling: touch;
 }
 
 #history
@@ -219,6 +221,8 @@ input[id="home-option"]:checked + label  {
 	background:rgba(257,257,257,0);
 	color: rgba(257,257,257,0);
 	padding-left: 15px;
+    overflow-y: scroll;
+    -webkit-overflow-scrolling: touch;
 }
 
 #nowadays
@@ -227,6 +231,8 @@ input[id="home-option"]:checked + label  {
 	background:rgba(257,257,257,0);
 	color: rgba(257,257,257,0);
 	padding-left: 15px;
+    overflow-y: scroll;
+    -webkit-overflow-scrolling: touch;
 }
 
 #future
@@ -235,6 +241,8 @@ input[id="home-option"]:checked + label  {
 	background:rgba(257,257,257,0);
 	color: rgba(257,257,257,0);
 	padding-left: 15px;
+    overflow-y: scroll;
+    -webkit-overflow-scrolling: touch;
 }
 
 #about
@@ -243,6 +251,8 @@ input[id="home-option"]:checked + label  {
 	background:rgba(257,257,257,0);
 	color: rgba(257,257,257,0);
 	padding-left: 15px;
+    overflow-y: scroll;
+    -webkit-overflow-scrolling: touch;
 }
 
 #guide
@@ -251,6 +261,8 @@ input[id="home-option"]:checked + label  {
 	background:rgba(257,257,257,0);
 	color: rgba(257,257,257,0);
 	padding: 15px;
+    overflow-y: scroll;
+    -webkit-overflow-scrolling: touch;
 }
 
 #aboutis
@@ -259,6 +271,8 @@ input[id="home-option"]:checked + label  {
 	background:rgba(257,257,257,0);
 	color: rgba(257,257,257,0);
 	padding-left: 15px;
+    overflow-y: scroll;
+    -webkit-overflow-scrolling: touch;
 }
 
 @keyframes page_intro{
