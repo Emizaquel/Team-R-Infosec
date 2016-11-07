@@ -201,7 +201,7 @@ input[id="home-option"]:checked + label  {
 
 .info
 {
-	position: absolute;
+	position: fixed;
 	width:70%;
 	height:86%;
 	top: 12%;
@@ -217,7 +217,7 @@ input[id="home-option"]:checked + label  {
 
 #history
 {
-	position:absolute;
+	position:fixed;
 	background:rgba(257,257,257,0);
 	color: rgba(257,257,257,0);
 	padding-left: 15px;
@@ -227,7 +227,7 @@ input[id="home-option"]:checked + label  {
 
 #nowadays
 {
-	position:absolute;
+	position:fixed;
 	overflow-y:scroll;
     -webkit-overflow-scrolling: touch;
 	background:rgba(257,257,257,0);
@@ -237,7 +237,7 @@ input[id="home-option"]:checked + label  {
 
 #future
 {
-	position:absolute;
+	position:fixed;
 	background:rgba(257,257,257,0);
 	color: rgba(257,257,257,0);
 	padding-left: 15px;
@@ -247,7 +247,7 @@ input[id="home-option"]:checked + label  {
 
 #about
 {
-	position:absolute;
+	position:fixed;
 	background:rgba(257,257,257,0);
 	color: rgba(257,257,257,0);
 	padding-left: 15px;
@@ -257,7 +257,7 @@ input[id="home-option"]:checked + label  {
 
 #guide
 {
-	position:absolute;
+	position:fixed;
 	background:rgba(257,257,257,0);
 	color: rgba(257,257,257,0);
 	padding: 15px;
@@ -267,7 +267,7 @@ input[id="home-option"]:checked + label  {
 
 #aboutis
 {
-	position:absolute;
+	position:fixed;
 	background:rgba(257,257,257,0);
 	color: rgba(257,257,257,0);
 	padding-left: 15px;
