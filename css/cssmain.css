@@ -14,6 +14,7 @@ body{
 	background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center; 
+    background-size: cover;
 	background-color:blue;
 	background-image:url("../res/infsec.jpg");
 	background-size:cover;
