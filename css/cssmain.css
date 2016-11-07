@@ -228,11 +228,11 @@ input[id="home-option"]:checked + label  {
 #nowadays
 {
 	position:absolute;
+	overflow-y:scroll;
+    -webkit-overflow-scrolling: touch;
 	background:rgba(257,257,257,0);
 	color: rgba(257,257,257,0);
 	padding-left: 15px;
-    overflow-y: scroll;
-    -webkit-overflow-scrolling: touch;
 }
 
 #future
