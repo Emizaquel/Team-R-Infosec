@@ -34,7 +34,10 @@ h2
 .imgf
 {
 	display: block;
-    margin: auto;
+    margin-top: 5px;
+    margin-left: 5 px;
+    margin-bottom: 0;
+    margin-right:0;
     width: 60%;
 }
 
